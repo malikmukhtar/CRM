@@ -12,7 +12,7 @@ const AuthProtected = (props) => {
 
   if (!userProfile && loading) {
     return (
-      <Redirect to={{ pathname: "/login", state: { from: props.location } }} />
+      <Redirect to={{ pathname: "/home", state: { from: props.location } }} />
     );
   }
 
