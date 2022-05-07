@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, PageWrapper } from "~components/Core";
 const headerConfig = {
-  headerClasses:
+  headerClassses:
     "site-header--menu-center bg-transparent site-header--dark site-header--menu-center-adjustment",
   darkLogo: true,
   doubleButton: {
@@ -12,6 +12,7 @@ const headerConfig = {
     btnTwoClass: "btn btn-primary btn-primary-hvr btn-2 rounded",
   },
 };
+
 export default function Error() {
   return (
     <PageWrapper
@@ -22,9 +23,10 @@ export default function Error() {
           <div className="row justify-content-center">
             <div className="col-xl-8 col-md-9 col-xs-11">
               <div className="error-section__img text-center">
-                <img src="./image/404.png" alt={404} className="mw-100" />
+                <img src="./images/404.png" alt={404} className="mw-100" />
               </div>
             </div>
+
             <div className="col-xxl-6 col-xl-7 col-lg-8 col-md-8 col-sm-10 col-xs-11">
               <div className="error-section__content block-title text-center">
                 <h2 className="title">Opps! Something Wrong</h2>
